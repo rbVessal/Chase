@@ -1,0 +1,1 @@
+Run chase.exe to play the game.

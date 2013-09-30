@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Switchables\Switch.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Player\PlayerDeath.cs" Line="48" Column="38" />
+      <File FileName="Assets\Scripts\Switchables\Switch.cs" Line="49" Column="2" />
+      <File FileName="Assets\Scripts\Switchables\Bridge.cs" Line="20" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

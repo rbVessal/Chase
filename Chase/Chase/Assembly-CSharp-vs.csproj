@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0AE0C09C-A166-7EFC-50BD-D24E02D04A53}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_0;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AutoDestruct.cs" />
+     <Compile Include="Assets\Scripts\Box.cs" />
+     <Compile Include="Assets\Scripts\Cannon.cs" />
+     <Compile Include="Assets\Scripts\Force.cs" />
+     <Compile Include="Assets\Scripts\GUI\GameOver.cs" />
+     <Compile Include="Assets\Scripts\GUI\Help.cs" />
+     <Compile Include="Assets\Scripts\GUI\Levels.cs" />
+     <Compile Include="Assets\Scripts\GUI\Menu.cs" />
+     <Compile Include="Assets\Scripts\GUI\Win.cs" />
+     <Compile Include="Assets\Scripts\InvisibilityPotion.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\GlowHUD.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerDeath.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerWin.cs" />
+     <Compile Include="Assets\Scripts\PlayerPotionHandler.cs" />
+     <Compile Include="Assets\Scripts\Potion.cs" />
+     <Compile Include="Assets\Scripts\PotionEffect.cs" />
+     <Compile Include="Assets\Scripts\Safe.cs" />
+     <Compile Include="Assets\Scripts\SlowPotion.cs" />
+     <Compile Include="Assets\Scripts\SpeedPotion.cs" />
+     <Compile Include="Assets\Scripts\Spring.cs" />
+     <Compile Include="Assets\Scripts\Switchables\Bridge.cs" />
+     <Compile Include="Assets\Scripts\Switchables\Crusher.cs" />
+     <Compile Include="Assets\Scripts\Switchables\ISwitchable.cs" />
+     <Compile Include="Assets\Scripts\Switchables\Lever.cs" />
+     <Compile Include="Assets\Scripts\Switchables\MovingPlatform.cs" />
+     <Compile Include="Assets\Scripts\Switchables\Switch.cs" />
+     <Compile Include="Assets\Scripts\TeleportPotion.cs" />
+     <Compile Include="Assets\Scripts\TestScript.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{A2EB3B56-2DD3-0B11-A1AD-6DE59BF2723A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
